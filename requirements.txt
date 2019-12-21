@@ -1,0 +1,5 @@
+######## requirements.txt #######
+pynetworktables
+PySimpleGUI
+py2exe
+#
