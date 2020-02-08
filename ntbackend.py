@@ -16,11 +16,6 @@ def get_ip():
 
 
 class NTBackend:
-    mode: int
-    address: str
-    port: int
-    log_list: list
-
     def __init__(self, address='', port=1735, window=None):
         self.mode = 0
         self.address = address
