@@ -4,10 +4,6 @@ from ntbackend import NTBackend
 
 
 class FrontendUI:
-    version_tag: str
-    app: NTBackend
-    windows: sg.Window
-
     def __init__(self, version_tag="0.1"):
         self.version_tag = version_tag
         self.layout = [[sg.Text('', size=(127, 30), font='Helvetica 12', key='log', background_color='black',
